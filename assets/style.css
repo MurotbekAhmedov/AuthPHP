@@ -1,0 +1,89 @@
+.form__block{
+    width: 400px;
+    height: 500px;
+    margin: 200px auto;
+    background: rgb(243, 230, 206);
+    border-radius: 30px;
+    padding-top: 30px;
+}
+form{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+input{
+    margin: 0 auto 20px;
+    width: 80%;
+    height: 25px;
+
+
+}
+label{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 10px auto;
+    position: relative;
+}
+button{
+    margin-top: 50px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+p{
+    margin: 20px auto;
+    width: 200px;
+    text-align: center;
+}
+h1{
+    width: 200px;
+    margin: 10px auto;
+}
+span{
+    color: red;
+    margin: 0 auto;
+    width: 80%;
+}
+.error{
+    width: 80%;
+    margin: 0 auto;
+    background: red;
+    border-radius: 10px;
+    height: 25px;
+    padding: 5px;
+}
+.saveform_box{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 0 auto;
+
+}
+.saveform_box label{
+    width: auto;
+    margin: 0;
+}
+.saveform_box input{
+    width: 15px;
+    margin-left: 10px;
+}
+.eye{
+    position: absolute;
+    top: 35px;
+    right: 0;
+}
+.form__block.form-doc{
+    height: 700px;
+}
+.form__block.form-doc h1{
+    width: 90%;
+    text-align: center;
+}
+form.logout__form{
+    padding: 0;
+    height: 30px;
+}
+form.logout__form button{
+    margin-top: 0;
+}
